@@ -20,7 +20,10 @@ import { Html, Head, Main, NextScript } from "next/document";
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <link rel="icon" href="/favicon.ico" /> {/* Substitua pelo nome do seu arquivo */}
+        <title>DietGem - Seu guia de nutrição com IA</title> 
+      </Head>
       <body>
         <Main />
         <NextScript />

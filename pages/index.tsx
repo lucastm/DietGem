@@ -38,8 +38,7 @@ export default function Home() {
   return (
     <div className={`flex flex-col items-center justify-center h-screen ${inter.className}`}>
         <div className="flex flex-col items-center">
-          <Image src="/vercel.svg" alt="DietGem Logo" width={150} height={150} />
-          <h1 className="text-3xl font-bold mt-4">DietGem</h1>
+          <Image src="/logo.png" alt="DietGem Logo" width={150} height={150} />
         </div>
     </div>
   );

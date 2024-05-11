@@ -22,7 +22,7 @@ export default function Header() {
         <header className="flex items-center justify-center bg-gray-100 py-4 w-full">
             <div className="flex items-center">
                 {/* Adjust image source and alt text as needed */}
-                <Image src="/vercel.svg" alt="DietGem Logo" width={40} height={40} />
+                <Image src="/logo.png" alt="DietGem Logo" width={40} height={40} />
                 <span className="ml-2 text-xl font-bold text-gray-800">DietGem</span>
             </div>
         </header>
