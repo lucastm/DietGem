@@ -4,6 +4,8 @@ DietGem é uma chatbot que utiliza o poder da inteligência artificial para auxi
 
 Com uma interface de chat intuitiva, recursos avançados de processamento de linguagem natural e visão computacional, o DietGem oferece uma experiência personalizada para alcançar seus objetivos de saúde.
 
+**Acesse o DietGem: https://diet-gem.vercel.app/**
+
 ## 🍽️ Funcionalidades
 
 - [x] **Conversa com o DietGem**: Interaja com o DietGem através de um chat intuitivo, recebendo mensagens personalizadas e orientações.
