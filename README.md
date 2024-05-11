@@ -1,5 +1,9 @@
 # DietGem: Seu guia inteligente para uma alimentação saudável com IA 🧠
 
+<div style="text-align: center;">
+    <img src="public/logo.png" alt="DietGem logo" width="200"/>
+</div>
+
 DietGem é uma chatbot que utiliza o poder da inteligência artificial para auxiliar você na sua jornada de dieta e reeducação alimentar.
 
 Com uma interface de chat intuitiva, recursos avançados de processamento de linguagem natural e visão computacional, o DietGem oferece uma experiência personalizada para alcançar seus objetivos de saúde.
