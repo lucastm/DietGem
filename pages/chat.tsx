@@ -48,8 +48,11 @@ export default function ChatPage() {
         fetchInitialMessage();
     }, []);
 
-    const adicionarMensagem = (mensagem: Message) => {
+    const adicionarMensagem = async (mensagem: Message) => {
         setMensagens((mensagensAtuais) => [...mensagensAtuais, mensagem]);
+        const response = await fetch('/api/message', { method: 'POST', body: JSON.stringify({ message: mensagem }) });
+        const texto = await response.text()
+        setMensagens((mensagensAtuais) => [...mensagensAtuais, { texto, autor: 'DietGem'}]);
     };
 
     const handleFormularioEnviado = (perfil: PerfilUsuario) => {
