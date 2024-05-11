@@ -16,6 +16,7 @@
 // along with diet-gem.  If not, see <https://www.gnu.org/licenses/>.
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Header() {
     return (
@@ -25,6 +26,14 @@ export default function Header() {
                 <Image src="/logo.png" alt="DietGem Logo" width={40} height={40} />
                 <span className="ml-2 text-xl font-bold text-gray-800">DietGem</span>
             </div>
-        </header>
+            {/* Botão de votação */}
+            <div>
+                <Link href="https://discord.com/channels/1228404913705451612/1228406162618060913/1238849735654379645" passHref>
+                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4" rel="noopener noreferrer">
+                        Vote no DietGem no Discord 🚀
+                    </button>
+                </Link>
+            </div >
+        </header >
     );
 }
